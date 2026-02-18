@@ -1,0 +1,106 @@
+:root{
+--color-shopnoworderbtn: #B47B48;
+--color-white: #FFFFFF;
+--color-buybtn: #C85312;
+--color-grey: #B4B4B4;
+--color-heropie: #EBAD51;
+--color-heroblack: #272727;
+--color-menublack: #202023;
+--color-whygrey: #D9D9D9;
+
+}
+body{
+    font-family: 'Inter';
+}
+
+.quality-title{
+    font-family: 'Italiana';
+}
+.Why-bakery-title{
+font-family: 'Italiana';
+}
+.where{
+font-family: 'Italiana';
+
+}
+.container{
+    max-width: 1150px;
+    margin: 0 auto;
+    padding: o 15px;
+}
+.nav-list{
+display: flex;
+text-align: left;
+gap: 25px;
+margin: 55px auto 71px 156px;
+list-style: none;
+
+}
+.nav-item{
+font-size: 24px;
+font-weight: 200;
+letter-spacing: 1px;
+text-decoration: none;
+color: inherit;
+}
+header h1{
+font-size: 64px;
+font-weight: 200;
+letter-spacing: 3px;
+text-transform: uppercase;
+line-height: 1.1;
+margin: 71px auto 22px 146px;
+}
+.hero-text{
+font-size: 21px;
+margin: 22px auto 33px 160px;
+font-weight: 300;
+
+}
+.hero-button{
+    font-size: 24px;
+font-weight: 300;
+margin: 49px auto 132px 191px;
+padding: 16px 34px 7px 34px;
+background-color: var(--color-shopnoworderbtn);
+color: #FFFFFF;
+border-radius: 10px;
+}
+.products-list{
+display: flex;
+
+gap: 120px;
+list-style: none;
+margin-top: 132px;
+
+}
+.product-card:first-child{
+margin-left: 162px;
+
+}
+.product-card{
+    flex-basis: calc();
+    width: 310px;
+    height: 225px;
+    
+}
+header{
+background-image: image(css/background-1.png);
+height: 1049px;
+
+}
+.product-card-aside{
+align-items: center;
+}
+.product-card-image{
+    display: flex;
+}
+.menu-title{
+font-size: 64px;
+font-weight: 100;
+margin: 21px auto ;
+
+}
+.menu{
+    height: 1440px;
+}
