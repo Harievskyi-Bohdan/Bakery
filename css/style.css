@@ -68,6 +68,7 @@ line-height: 1.1;
 margin: 71px auto 22px 0px;
 }
 .hero-text{
+     font-family: 'Inter';
 font-size: 21px;
 margin: 22px auto 33px 0px;
 font-weight: 300;
@@ -179,7 +180,8 @@ flex-direction: column;
     font-weight: 900;
     border: 0px;
     color: #FFFFFF;
-
+margin-left: 30px;
+margin-top: 10px;
 }
 .product-card-price2{
     font-size: 24px;
@@ -248,6 +250,7 @@ color: #FFFFFF;
 padding: 3px 43px 7px 43px;
 margin-top: 9px;
     margin-left: 195px;
+    margin-bottom: 7px;
 }
 .menu-item-title{
 font-size: 26px;
@@ -360,20 +363,17 @@ display: flex;
 list-style: none;
 justify-content: center;
 }
-.quality-item3{
+.quality-item3 {
 padding-top: 123px;
 margin-left: 90px;
 }
-.quality-item2{
+.quality-item2 {
 padding-top: 84px;
 
 
 }
-.quality-image1 {
-
-
-
-
+.why-bakery-item-title2 {
+    padding-left: 37px;
 
 }
 .quality-title {
@@ -400,7 +400,7 @@ max-width: 600px;
 
     background-repeat: no-repeat;
 
-    outline: 2px solid #FFFFFF;
+    
     padding-top: 0px;
 }
 .why-bakery{
@@ -449,12 +449,7 @@ font-size: 48px;
 font-weight: 400;
 margin: 66px auto 44px 161px;
 }
-.map-image{
-margin-left: 161px;
-margin-bottom: 50px;
-margin-right: 133px;
 
-}
 .how{
 margin-top: 180px;
 font-size: 40px;
@@ -593,7 +588,7 @@ flex-direction: column;
 display: flex;
 justify-content: center;
 text-decoration: none;
-font-size: 20;
+font-size: 20px;
 font-weight: 100;
 color: #FFFFFF;
 padding-bottom: 44px;
@@ -606,6 +601,53 @@ font-size: 24px;
 }
 .menu-item-image{
     position: absolute;
-    bottom: 30px;
+        bottom: 30px;
     
+}
+.menu-item-image1 {
+    position: absolute;
+    bottom: 90px;
+    left: 90px;
+}
+.menu-item-image2 {
+position: absolute;
+top: 23px;
+
+}
+.menu-item-image3 {
+position: absolute;
+top: 72px;
+left: 150px;
+}
+.menu-item-image4 {
+    position: absolute;
+    width: 230px;
+    bottom: 15px;
+    left: 30px;
+}
+.menu-item-image5 {
+position: absolute;
+width: 80px;
+top: 80px;
+left: 40px;
+}
+.menu-item-image6 {
+    position: absolute;
+  left: 50px;
+  width: 189px;
+  z-index: 1;
+}
+.menu-item-image7 {
+    position: absolute;
+z-index: 2;
+width: 141px;
+left: 24px;
+top: 68px;
+}
+iframe {
+    width: 535px;
+height: 487px;
+margin-left: 161px;
+margin-right: 132px;
+margin-bottom: 50px;
 }
